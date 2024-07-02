@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+
+}
+article{
+    flex : 4
+    overflow-y 
+}
+aside{
+    flex: 1
+    overflow-y
+}
+h3,h2{
+    color: brown;
+}
+article{
+    padding-bottom: 0px;
+}
+aside{
+    padding-right: 0px;
+    padding-left: 50px;
+    border-left: 2px solid rgb(190, 181, 181); ;
+}
+footer{
+    border-top: 2px solid rgb(190, 181, 181); ;
+
+}
+
+ul{
+    font-size: larger;
+}
